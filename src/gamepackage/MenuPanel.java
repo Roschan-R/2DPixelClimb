@@ -23,7 +23,7 @@ public class MenuPanel extends JPanel implements ActionListener, MouseListener {
         super();
 
         //imports and adds all images for background, and buttons then sets the size and adds an action listener
-        ImageIcon backgroundImage = new ImageIcon("res/donkeykongbackground.png");
+        ImageIcon backgroundImage = new ImageIcon("res/2dpixelclimber.png");
         Image img1 = backgroundImage.getImage();
         Image newimg1 = img1.getScaledInstance(1200, 1000, java.awt.Image.SCALE_SMOOTH);
         ImageIcon backImg = new ImageIcon(newimg1);
@@ -128,3 +128,4 @@ public class MenuPanel extends JPanel implements ActionListener, MouseListener {
 		
 	}
 }
+
